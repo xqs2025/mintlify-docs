@@ -1,133 +1,60 @@
 ---
-title: "Introduction"
-description: "Welcome to the new home for your documentation"
-icon: 'star'
+title: UroLearn 帮助中心
+description: 面向医学学习者的智能学习平台帮助文档
 ---
 
-## Setting up
+UroLearn 是一个面向医学学习者的智能学习平台。它把每日知识卡片、系统学习、知识检测、标准化病人问诊和 AI 学习助手连接在一起，帮助你更系统地理解医学知识，并训练临床思维。
 
-Get your documentation site up and running in minutes.
+<Warning>
+  UroLearn 仅用于医学学习、教学辅助和临床思维训练。平台内容不能替代医生判断，也不能用于真实医疗诊断、治疗决策或处方开具。
+</Warning>
 
-<Card
-  title="Start here"
-  icon="rocket"
-  href="/quickstart"
-  horizontal
->
-  Follow our three step quickstart guide.
-</Card>
+## 你可以在这里做什么
 
-## Make it yours
-
-Design a docs site that looks great and empowers your users.
-
-<Columns cols={2}>
-  <Card
-    title="Edit locally"
-    icon="pen-to-square"
-    href="/development"
-  >
-    Edit your docs locally and preview them in real time.
+<CardGroup cols={2}>
+  <Card title="快速了解平台" icon="circle-question" href="/quickstart/what-is-urolearn">
+    了解 UroLearn 的定位、模块关系和适用人群。
   </Card>
-  <Card
-    title="Customize your site"
-    icon="palette"
-    href="/essentials/settings"
-  >
-    Customize the design and colors of your site to match your brand.
+  <Card title="开始每日知识卡片" icon="calendar-days" href="/quickstart/daily-card-start">
+    通过每日知识点、临床意义和思考问题建立学习节奏。
   </Card>
-    <Card
-    title="Set up navigation"
-    icon="map"
-    href="/essentials/navigation"
-  >
-    Organize your docs to help users find what they need and succeed with your product.
+  <Card title="进入问诊训练" icon="stethoscope" href="/quickstart/inquiry-start">
+    和标准化病人智能体对话，练习病史采集、检查申请和诊断思路。
   </Card>
-  <Card
-    title="API documentation"
-    icon="terminal"
-    href="/api-reference/introduction"
-  >
-    Auto-generate API documentation from OpenAPI specifications.
+  <Card title="使用 AI 学习助手" icon="sparkles" href="/quickstart/ai-assistant-start">
+    让 AI 辅助解释知识点、复盘错题和整理复习要点。
   </Card>
-</Columns>
+</CardGroup>
 
-## Create beautiful pages
+## 核心模块
 
-Everything you need to create world-class documentation.
+### 每日知识卡片
 
-<Columns cols={2}>
-  <Card
-    title="Write with MDX"
-    icon="pen-fancy"
-    href="/essentials/markdown"
-  >
-    Use MDX to style your docs pages.
-  </Card>
-  <Card
-    title="Code samples"
-    icon="code"
-    href="/essentials/code"
-  >
-    Add sample code to demonstrate how to use your product.
-  </Card>
-  <Card
-    title="Images"
-    icon="image"
-    href="/essentials/images"
-  >
-    Display images and other media.
-  </Card>
-  <Card
-    title="Reusable snippets"
-    icon="recycle"
-    href="/essentials/reusable-snippets"
-  >
-    Write once and reuse across your docs.
-  </Card>
-</Columns>
+每日知识卡片帮助你用较短时间接触一个医学主题。每张卡片通常包含核心内容、临床意义和思考问题。你可以从卡片跳转到 AI 学习助手，继续追问概念、机制或易错点。
 
-## Make your content agent ready
+### 系统学习
 
-Make your docs work for humans and AI agents alike.
+系统学习适合按主题推进。你可以围绕泌尿系统相关知识建立结构化理解，并把零散知识连接成完整框架。
 
-<Columns cols={2}>
-  <Card
-    title="Prompt component"
-    icon="robot"
-    href="/agent-ready/prompt"
-  >
-    Embed shareable AI prompts readers can copy or open in Cursor.
-  </Card>
-  <Card
-    title="Visibility"
-    icon="eye"
-    href="/agent-ready/visibility"
-  >
-    Show different content to humans and agents reading your docs.
-  </Card>
-  <Card
-    title="Contextual menu"
-    icon="bolt"
-    href="/agent-ready/contextual"
-  >
-    Give readers one-click access to Claude, ChatGPT, Cursor, and more.
-  </Card>
-  <Card
-    title="AI coding tools"
-    icon="wand-magic-sparkles"
-    href="/ai-tools/claude-code"
-  >
-    Set up Claude Code, Cursor, or Windsurf with Mintlify's skill.
-  </Card>
-</Columns>
+### 知识检测
 
-## Need inspiration?
+知识检测帮助你检查掌握情况。你可以通过题目发现薄弱点，再结合解析和 AI 学习助手进行复盘。
 
-<Card
-  title="See complete examples"
-  icon="stars"
-  href="https://mintlify.com/customers"
->
-  Browse our showcase of exceptional documentation sites.
-</Card>
+### 标准化病人问诊
+
+问诊训练模拟标准化病人的交互场景。你需要逐步询问病史、申请检查、结束问诊并提交诊断思路。系统会基于你的过程给出学习反馈。
+
+### AI 学习助手
+
+AI 学习助手用于解释医学概念、辅助复习、回答思考问题和讲解错题。它面向学习过程，不提供真实诊断或具体处方建议。
+
+## 适用场景
+
+- 医学生进行课前预习、课后复盘和考试前复习
+- 住院医师、规培学员训练临床问诊与诊断思维
+- 教师设计教学讨论、病例推演和形成性评价
+- 医学学习者梳理知识点、追问机制和定位薄弱环节
+
+<Info>
+  如果你正在处理真实健康问题，请咨询具备资质的医生或医疗机构。UroLearn 不用于急诊、诊疗决策或替代线下医疗服务。
+</Info>

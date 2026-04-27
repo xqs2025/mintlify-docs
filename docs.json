@@ -15,8 +15,7 @@
         "pages": [
           "quickstart/what-is-urolearn",
           "quickstart/daily-card-start",
-          "quickstart/inquiry-start",
-          "quickstart/ai-assistant-start"
+          "quickstart/inquiry-start"
         ]
       },
       {
@@ -25,8 +24,7 @@
           "features/daily-card",
           "features/learning",
           "features/quiz",
-          "features/inquiry",
-          "features/ai-chat"
+          "features/inquiry"
         ]
       },
       {
@@ -43,7 +41,6 @@
         "pages": [
           "faq/no-direct-diagnosis",
           "faq/submit-diagnosis-first",
-          "faq/ai-search",
           "faq/chat-history"
         ]
       },
